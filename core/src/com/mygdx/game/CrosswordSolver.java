@@ -33,6 +33,10 @@ public class CrosswordSolver extends ApplicationAdapter {
 	private Assets assets;
 	//RadioButton button;
 
+    public CrosswordSolver(Assets assets) {
+        this.assets = assets;
+    }
+
 	
 	@Override
 	public void create () {
